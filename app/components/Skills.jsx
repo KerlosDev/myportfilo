@@ -7,6 +7,7 @@ import { FaJsSquare } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { SiGraphql } from "react-icons/si";
 
 const Skills = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -17,6 +18,7 @@ const Skills = () => {
         { id: 3, name: "Java Sc", icon: <FaJsSquare />, paragrap: `JavaScript is a programming language used to create interactive and dynamic web content. It’s one of the core technologies of the web, alongside HTML and CSS, and runs in the browser to enhance user experiences.` },
         { id: 4, name: "HTML5", icon: <FaHtml5 />, paragrap: `HTML5 is the latest version of HTML (HyperText Markup Language), the standard language for creating web pages. It introduces new elements, attributes, and APIs to make web development easier, more powerful, and more interactive.` },
         { id: 5, name: "CSS", icon: <FaCss3 />, paragrap: `CSS (Cascading Style Sheets) is a language used to style and format the layout of web pages. It controls the visual appearance of HTML elements, including colors, fonts, spacing, and positioning.` },
+        { id: 6, name: "Graph Ql", icon: <SiGraphql />, paragrap: `GraphQL is a query language for APIs and a runtime for executing those queries against your data. It was developed by Facebook to improve the way data is fetched and interacted with in web applications. GraphQL provides a more flexible and efficient approach to data retrieval than traditional REST APIs.` },
     ];
 
 
@@ -30,7 +32,7 @@ const Skills = () => {
 
             <div className='  grid grid-cols-4 '>
 
-                <div className=' grid grid-cols-2  col-span-2'>
+                <div className='  grid grid-cols-2  col-span-2'>
                     {skills.map((skill) => (
                         <div key={skill.id} onClick={() => { setActiveIndex(skill.id); console.log(skill.id) }}
                             className={`m-4 transition backdrop-blur-2xl  text-white ${activeIndex === skill.id ? " bg-green-500 scale-110 shadow-xl shadow-green-500/30 " : "bg-white/15"
@@ -48,11 +50,13 @@ const Skills = () => {
                         <div
                             key={skill.id}
 
+                            className=''
+                            
 
                         >
                             {skill.id === activeIndex && 
 
-                                <p className=' m-4 absolute rounded-xl bg-green-500 p-5 font-arabicUI3 text-2xl shadow-xl shadow-green-500/30 text-white'>{skill.paragrap}
+                                <p className=' outline-dashed outline-2 outline-offset-4 outline-green-500 m-4 absolute rounded-xl bg-green-500 p-5 font-arabicUI3 text-2xl shadow-xl shadow-green-500/30 text-white'>{skill.paragrap}
                                 </p>
                             }
 
@@ -64,7 +68,7 @@ const Skills = () => {
             </div>
 
 
-
+            
         </div>
     )
 }
