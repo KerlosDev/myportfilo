@@ -26,12 +26,14 @@ const Hero = () => {
                     <h4 className=' font-anton leading-snug text-slate-400 text-6xl'>
                         Hi,  I’m <span className=' bg-gradient-to-tr from-slate-300 to-slate-100 text-white   bg-clip-text text-transparent'> Kerlos Hany </span> ,
                     </h4>
-                    <h4 className=' font-anton leading-snug text-slate-400 text-6xl'>
-                        in faculty of computer science
+                    <h4 className=' font-anton leading-snug text-slate-400 text-4xl'>
+                        in faculty of computer science .. Front End Developer .
                     </h4>
 
                    
                 </div>
+
+                <img src="pal.svg" className='  -mt-20'   width={500} alt="" />
 
             </div>
         </>

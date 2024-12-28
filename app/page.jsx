@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Header from "./components/Header";
+
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
 
       <Nav></Nav>
       <Hero></Hero>
-      <Header></Header>
+      <Skills></Skills>
+     
 
     </div>
   );
