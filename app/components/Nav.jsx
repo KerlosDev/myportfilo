@@ -16,9 +16,9 @@ const Nav = () => {
                 </div>
                 <div className=' flex gap-4 w-fit  rounded-xl ' >
 
-                    <h3 className='  cursor-pointer hover:bg-slate-400 hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-slate-800  transition font-anton text-3xl text-slate-400  flex gap-2'>Projects <FaFolder /> </h3>
-                    <h3 className='  cursor-pointer hover:bg-slate-400 hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-slate-800  transition font-anton text-3xl text-slate-400  flex gap-2  '>Contact <BsFillChatTextFill /></h3>
-                    <h3 className='  cursor-pointer hover:bg-slate-400 hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-slate-800  transition font-anton text-3xl text-slate-400  flex gap-2'>About <FaInfo></FaInfo></h3>
+                    <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>Projects <FaFolder /> </h3>
+                    <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center  transition font-anton text-3xl text-slate-400  flex gap-2  '>Contact <BsFillChatTextFill /></h3>
+                    <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>About <FaInfo></FaInfo></h3>
                 </div>
             </div>
 
