@@ -2,7 +2,8 @@
 import Image from 'next/image'
 import React from 'react'
 import { BsFillPatchCheckFill } from "react-icons/bs";
-import Anmito from './Anmito';
+
+
 
 const Hero = () => {
     return (
