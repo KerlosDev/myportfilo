@@ -1,6 +1,8 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import Anmito from './Anmito';
 
 const Hero = () => {
     return (
@@ -27,9 +29,10 @@ const Hero = () => {
                         in faculty of computer science
                     </h4>
 
-
+                   
                 </div>
 
+                <Anmito></Anmito>
             </div>
         </>
 

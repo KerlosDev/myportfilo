@@ -3,6 +3,7 @@ import { FaFolder } from "react-icons/fa";
 import { BsFillChatTextFill } from "react-icons/bs";
 import { FaInfo } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
+import { IoPersonSharp } from "react-icons/io5";
 
 const Nav = () => {
     return (
@@ -18,7 +19,7 @@ const Nav = () => {
 
                     <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>Projects <FaFolder /> </h3>
                     <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center  transition font-anton text-3xl text-slate-400  flex gap-2  '>Contact <BsFillChatTextFill /></h3>
-                    <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>About <FaInfo></FaInfo></h3>
+                    <h3 className='  cursor-pointer  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>About <IoPersonSharp></IoPersonSharp></h3>
                 </div>
             </div>
 
