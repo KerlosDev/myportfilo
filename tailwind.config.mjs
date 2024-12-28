@@ -16,8 +16,9 @@ export default {
         arabicUI3: ['arabicUI3', 'sans-serif'],
         abril: ['"Abril Fatface"', 'cursive'], // Custom font name
         Gaza: ['DGGaza', 'sans-serif'],
-        rakkas: ['Rakkas', 'sans-serif'], // Add Rakkas font to Tailwind theme
+        rakkas: ['Rakkas', 'sans-serif'],
 
+        
       },
       colors: {
         background: "var(--background)",

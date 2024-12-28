@@ -5,10 +5,13 @@ const ArabicUI = localFont({ src: './fonts/DG-Gaza.ttf' })
 const ArabicUI2 = localFont({ src: './fonts/LANTX.otf' })
 const ArabicUI3 = localFont({ src: './fonts/Rubik.ttf' })
 import { Anton } from 'next/font/google';
+
+
 const anton = Anton({
   subsets: ['latin'], // Include the subset you need
   weight: '400',      // Adjust weight if needed (Anton only has 400)
 });
+
 
 import { Rakkas } from 'next/font/google';
 

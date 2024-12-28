@@ -27,4 +27,17 @@ mutation MyMutation {
 
 
 }
-    export default {sendmasseges}
+
+const getMessages = async() => {
+  const query8 = gql`
+  query MyQuery {
+  messages {
+    email
+    id
+    message
+  }
+}`
+  const reslut4 = await request(MasterUrl, query8)
+  return reslut4
+}
+    export default {sendmasseges,getMessages}

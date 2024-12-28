@@ -37,7 +37,7 @@ const Skills = () => {
                         <div key={skill.id} onClick={() => { setActiveIndex(skill.id); console.log(skill.id) }}
                             className={`m-4 transition backdrop-blur-2xl  text-white ${activeIndex === skill.id ? " bg-green-500 scale-110 shadow-xl shadow-green-500/30 " : "bg-white/15"
                                 }   p-4 font-arabicUI3 text-4xl rounded-xl`}>
-                            <h3 className="flex gap-2 items-center">
+                            <h3 className="flex gap-2  items-center">
                                 {skill.icon} {skill.name}
                             </h3>
                         </div>
