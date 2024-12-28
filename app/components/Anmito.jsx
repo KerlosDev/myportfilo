@@ -6,7 +6,7 @@ import lap from '../../public/lap.json'
 const Anmito = () => {
     return (
        
-            <Lottie className=' absolute right-20 w-[600] -mr-20' animationData={lap} />
+            <Lottie loop={false} className=' absolute right-20 w-[600] -mr-20' animationData={lap} />
        
     )
 }
