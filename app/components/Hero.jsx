@@ -32,7 +32,6 @@ const Hero = () => {
                    
                 </div>
 
-                <Anmito></Anmito>
             </div>
         </>
 
