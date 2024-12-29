@@ -36,7 +36,7 @@ const ProjectCont = ({ id }) => {
                             width={550}
                             alt="Project Image"
                             src={project.imageforcourse[activeIndex].url}
-                            className="mx-auto bg-red-500 rounded-lg shadow-lg"
+                            className="mx-auto  rounded-lg shadow-lg"
                         />
                     )}
                 </div>

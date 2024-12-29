@@ -2,39 +2,38 @@
 import React, { useState } from 'react'
 import { FaFolder } from "react-icons/fa";
 import { BsFillChatTextFill } from "react-icons/bs";
-import { FaInfo } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
-import Link from 'next/link';
 import { TiThMenu } from "react-icons/ti";
-
+import { useRouter } from 'next/navigation'; // Import useRouter
+import Link from 'next/link';
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const router = useRouter(); // Initialize useRouter
 
+    // Scroll to section if on home page, otherwise redirect to home page
     const scrollToSection = (id = 'prog') => {
-        const section = document.getElementById(id);
-        section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        });
+        if (window.location.pathname === '/') {
+            const section = document.getElementById(id);
+            section.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        } else {
+            router.push('/'); // Redirect to home page if not on home page
+        }
         setIsMenuOpen(false); // Close mobile menu after click
     };
 
-
     return (
-        <div className='   z-20 py-8'>
-
-            <div className='  flex justify-center gap-3 p-2 '>
-                <div className=' max-sm:gap-40  place-items-center flex'>
-
-
-
-                    <Link href='/' onClick={() => window.scrollTo(0, 0)} > {/* Scroll to the top of the page */}
-                        <h3 className='place-items-center  cursor-pointer p-2 rounded-xl transition font-anton max-sm:text-xl text-3xl text-slate-400 flex gap-2'>
+        <div className='z-20 py-8'>
+            <div className='flex justify-center gap-3 p-2'>
+                <div className='max-sm:gap-40 place-items-center flex'>
+                    <Link href='/' onClick={() => window.scrollTo(0, 0)}>
+                        <h3 className='place-items-center cursor-pointer p-2 rounded-xl transition font-anton max-sm:text-xl text-3xl text-slate-400 flex gap-2'>
                             Kerlos Dev <FaCode />
                         </h3>
                     </Link>
-
 
                     {/* Hamburger Menu for Mobile */}
                     <div className="sm:hidden">
@@ -46,8 +45,7 @@ const Nav = () => {
                         </button>
 
                         <dialog
-                            className={`fixed inset-0 z-50 flex items-center justify-center bg-transparent ${isMenuOpen ? '' : 'hidden'
-                                }`}
+                            className={`fixed inset-0 z-50 flex items-center justify-center bg-transparent ${isMenuOpen ? '' : 'hidden'}`}
                             open={isMenuOpen}
                         >
                             {/* Backdrop */}
@@ -66,7 +64,6 @@ const Nav = () => {
                                         onClick={() => {
                                             scrollToSection('prog');
                                             setIsMenuOpen(false);
-
                                         }}
                                         className="cursor-pointer hover:scale-110 p-2 sm:p-4 rounded-xl hover:text-white transition font-anton text-3xl sm:text-2xl text-slate-400 flex items-center gap-2"
                                     >
@@ -93,25 +90,17 @@ const Nav = () => {
                                 </div>
                             </div>
                         </dialog>
-
-
                     </div>
-
-
-
-
                 </div>
 
-                <div className=' max-sm:hidden flex gap-4 w-fit  rounded-xl ' >
-
-                    <h3 onClick={() => { scrollToSection('prog') } } className='  cursor-pointer  max-sm:text-xl hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>Projects <FaFolder /> </h3>
-                    <h3 onClick={() => { scrollToSection('contact') }} className='  cursor-pointer  max-sm:text-xl hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center  transition font-anton text-3xl text-slate-400  flex gap-2  '>Contact <BsFillChatTextFill /></h3>
-                    <h3 onClick={() => { scrollToSection('skills') }} className='  cursor-pointer max-sm:text-xl  hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white  place-items-center transition font-anton text-3xl text-slate-400  flex gap-2'>Skills <IoPersonSharp></IoPersonSharp></h3>
+                <div className='max-sm:hidden flex gap-4 w-fit rounded-xl'>
+                    <h3 onClick={() => { scrollToSection('prog') }} className='cursor-pointer max-sm:text-xl hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white place-items-center transition font-anton text-3xl text-slate-400 flex gap-2'>Projects <FaFolder /> </h3>
+                    <h3 onClick={() => { scrollToSection('contact') }} className='cursor-pointer max-sm:text-xl hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white place-items-center transition font-anton text-3xl text-slate-400 flex gap-2'>Contact <BsFillChatTextFill /></h3>
+                    <h3 onClick={() => { scrollToSection('skills') }} className='cursor-pointer max-sm:text-xl hover:shadow-slate-900 shadow-2xl hover:scale-125 p-2 rounded-xl hover:text-white place-items-center transition font-anton text-3xl text-slate-400 flex gap-2'>Skills <IoPersonSharp /></h3>
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default Nav
+export default Nav;
