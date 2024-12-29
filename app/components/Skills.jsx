@@ -1,13 +1,9 @@
-'use client'
-import React, { useState } from 'react'
-import { SiNextdotjs } from "react-icons/si";
-import { RiReactjsFill } from "react-icons/ri";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaJsSquare } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { FaHeart } from "react-icons/fa";
-import { SiGraphql } from "react-icons/si";
+'use client';
+import React, { useState } from 'react';
+import { SiNextdotjs } from 'react-icons/si';
+import { RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { FaJsSquare, FaHtml5, FaCss3, FaHeart } from 'react-icons/fa';
+import { SiGraphql } from 'react-icons/si';
 
 const Skills = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -21,58 +17,51 @@ const Skills = () => {
         { id: 6, name: "Graph Ql", icon: <SiGraphql />, paragrap: `GraphQL is a query language for APIs and a runtime for executing those queries against your data. It was developed by Facebook to improve the way data is fetched and interacted with in web applications. GraphQL provides a more flexible and efficient approach to data retrieval than traditional REST APIs.` },
     ];
 
-
-
     return (
-        <div id='skills' className=' mt-20 cursor-default relative mx-40 '>
+        <div id="skills" className="mt-20 cursor-default relative mx-4 lg:mx-40">
+            <h3 className="text-white m-4 font-abril text-4xl lg:text-6xl place-items-center flex gap-3">
+                Skills <FaHeart className="text-3xl lg:text-5xl" />
+            </h3>
+            <div className="w-40 h-40 lg:w-80 lg:h-80 bg-slate-800 -z-30 blur-3xl left-10 lg:left-52 rounded-full absolute"></div>
 
-            <h3 className=' text-white m-4 font-abril text-6xl place-items-center flex gap-3 '>Skills <FaHeart className=' text-5xl' /></h3>
-            <div className=' w-80 h-80 bg-slate-800 -z-30 blur-3xl left-52 rounded-full  absolute'></div>
-
-
-            <div className='  grid grid-cols-4 '>
-
-                <div className='  grid grid-cols-2  col-span-2'>
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                {/* Skills List */}
+                <div className="grid grid-cols-2 lg:col-span-2 gap-5">
                     {skills.map((skill) => (
-                        <div key={skill.id} onClick={() => { setActiveIndex(skill.id); console.log(skill.id) }}
-                            className={`m-4 transition backdrop-blur-2xl  text-white ${activeIndex === skill.id ? " bg-green-500 scale-110 shadow-xl shadow-green-500/30 " : "bg-white/15"
-                                }   p-4 font-arabicUI3 text-4xl rounded-xl`}>
-                            <h3 className="flex gap-2  items-center">
+                        <div
+                            key={skill.id}
+                            onClick={() => setActiveIndex(skill.id)}
+                            className={`transition backdrop-blur-2xl  text-white ${
+                                activeIndex === skill.id
+                                    ? "bg-green-500 scale-110 shadow-xl shadow-green-500/30"
+                                    : "bg-white/15"
+                            } p-4 text-center font-arabicUI3 text-xl lg:text-4xl rounded-xl`}
+                        >
+                            <h3 className="flex gap-2 items-center justify-center">
                                 {skill.icon} {skill.name}
                             </h3>
                         </div>
                     ))}
                 </div>
 
-
-                <div className='  col-span-1'>
-                    {skills.map((skill) => (
-                        <div
-                            key={skill.id}
-
-                            className=''
-                            
-
-                        >
-                            {skill.id === activeIndex && 
-
-                                <p className=' outline-dashed outline-2 outline-offset-4 outline-green-500 m-4 absolute rounded-xl bg-green-500 p-5 font-arabicUI3 text-2xl shadow-xl shadow-green-500/30 text-white'>
-                                  <span className=' text-5xl'>  {skill.icon}</span>
+                {/* Skill Description */}
+                <div className="lg:col-span-2 flex items-center justify-center">
+                    {skills.map(
+                        (skill) =>
+                            skill.id === activeIndex && (
+                                <p
+                                    key={skill.id}
+                                    className="relative bg-green-500 p-5 font-arabicUI3 text-lg lg:text-2xl shadow-xl shadow-green-500/30 text-white rounded-xl outline-dashed outline-2 outline-offset-4 outline-green-500"
+                                >
+                                    <span className="text-4xl lg:text-5xl">{skill.icon}</span>
                                     {skill.paragrap}
                                 </p>
-                            }
-
-                        </div>
-                    ))}
+                            )
+                    )}
                 </div>
-
-
             </div>
-
-
-            
         </div>
-    )
-}
+    );
+};
 
-export default Skills
+export default Skills;

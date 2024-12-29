@@ -13,10 +13,15 @@ export default function Home() {
     <div>
 
       <Nav></Nav>
+
       <Hero></Hero>
+
       <Skills></Skills>
+
       <Projects></Projects>
-      <Contact></Contact>
+      
+      <Contact></Contact> 
+      
 
 
     </div>

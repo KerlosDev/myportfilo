@@ -31,7 +31,7 @@ mutation MyMutation {
 const getMessages = async() => {
   const query8 = gql`
   query MyQuery {
-  messages {
+  messages(first: 1000) {
     email
     id
     message
