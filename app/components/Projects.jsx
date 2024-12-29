@@ -22,6 +22,7 @@ const Projects = () => {
 
         )
     }
+    
     return (
         <div className=' cursor-default my-9  mx-40 p-4'>
 
@@ -34,7 +35,7 @@ const Projects = () => {
                     return (
                         <div key={index} className=' bg-white  drop-shadow-[0_50px_50px_rgba(100,116,139,0.3)]   mt-10 w-fit rounded-2xl'>
 
-                            <Image className=' hover:scale-110 transition    scale-105   border-white drop-shadow-2xl rounded-xl' src='/course.png' width={400} height={400} alt='course'></Image>
+                            <Image className=' hover:scale-110 transition    scale-105   border-white drop-shadow-2xl rounded-xl' src={item.imageforcourse[0].url} width={400} height={400} alt='course'></Image>
 
                             <Link href={`/project/${item.slugforproject}`}>
                                 <h4 className=' hover:scale-110 hover:text-blue-600 transition  font-arabicUI3 text-center mt-3  pt-4  text-3xl text-slate-900'>{item.name}</h4>
