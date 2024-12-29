@@ -38,7 +38,7 @@ const Hero = () => {
                     
                 </div>
 
-                <img src="pal.svg" className='  -mt-20'   width={500} alt="" />
+                <img src="pal.svg" className=' -z-10  -mt-20'   width={500} alt="" />
 
             </div>
         </>

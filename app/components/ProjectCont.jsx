@@ -27,7 +27,7 @@ const ProjectCont = ({ id }) => {
     };
 
     return (
-        <div className=' mx-40'>
+        <div className=' mb-8 mx-40'>
             <div className=' h-[500] grid grid-cols-5'>
 
 
