@@ -24,7 +24,7 @@ const Skills = () => {
 
 
     return (
-        <div className=' my-20 cursor-default relative mx-40 '>
+        <div className=' mt-20 cursor-default relative mx-40 '>
 
             <h3 className=' text-white m-4 font-abril text-6xl place-items-center flex gap-3 '>Skills <FaHeart className=' text-5xl' /></h3>
             <div className=' w-80 h-80 bg-slate-800 -z-30 blur-3xl left-52 rounded-full  absolute'></div>
@@ -56,7 +56,9 @@ const Skills = () => {
                         >
                             {skill.id === activeIndex && 
 
-                                <p className=' outline-dashed outline-2 outline-offset-4 outline-green-500 m-4 absolute rounded-xl bg-green-500 p-5 font-arabicUI3 text-2xl shadow-xl shadow-green-500/30 text-white'>{skill.paragrap}
+                                <p className=' outline-dashed outline-2 outline-offset-4 outline-green-500 m-4 absolute rounded-xl bg-green-500 p-5 font-arabicUI3 text-2xl shadow-xl shadow-green-500/30 text-white'>
+                                  <span className=' text-5xl'>  {skill.icon}</span>
+                                    {skill.paragrap}
                                 </p>
                             }
 

@@ -35,7 +35,6 @@ const Contact = () => {
         <div className='relative select-none'>
             <div className='absolute rounded-full blur-3xl w-96 h-96 bg-slate-800 bottom-0 -z-10'></div>
             <div className='absolute rounded-full blur-3xl w-96 h-96 bg-slate-800 right-0 -z-10'></div>
-            <div className='absolute rounded-full blur-3xl w-96 h-96 bg-slate-800 right-64 top-96 -z-10'></div>
 
             <div className='relative mb-28 mx-40'>
                 <div id='contact' className=''>
