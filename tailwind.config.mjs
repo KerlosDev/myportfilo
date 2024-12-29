@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+
+        'noise': "url('/noise.png')",
+      },
       fontFamily: {
         anton: ['Anton', 'sans-serif'], // Add Anton as a custom font
         arabicUI: ['arabicUI', 'sans-serif'],

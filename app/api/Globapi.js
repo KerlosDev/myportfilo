@@ -40,4 +40,41 @@ const getMessages = async() => {
   const reslut4 = await request(MasterUrl, query8)
   return reslut4
 }
-    export default {sendmasseges,getMessages}
+const getProject = async () => {
+  const query3 = gql`
+  query MyQuery {
+  projects {
+    name
+    slugforproject
+    id
+    description
+    imageforcourse {
+      id
+      url
+    }
+  }
+}
+  `
+  const reslut6 = await request(MasterUrl, query3)
+  return reslut6
+}
+const getspecifec = async (slug) => {
+  const query4 = gql`
+ query MyQuery {
+  projects(where: {slugforproject: "`+slug+`"}) {
+    name
+    slugforproject
+    id
+    description
+    link
+    imageforcourse {
+      id
+      url
+    }
+  }
+}
+  `
+  const reslut5 = await request(MasterUrl, query4)
+  return reslut5
+}
+    export default {sendmasseges,getMessages,getProject,getspecifec}

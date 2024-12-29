@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import Soical from './Soical';
 
 
 
@@ -10,7 +11,7 @@ const Hero = () => {
         <>
             <div className=' absolute  bg-slate-700/80 w-80 h-80 top-0   rounded-full -z-20   blur-3xl'></div>
             <div className=' absolute bg-slate-700/80 w-80 h-80 right-0   rounded-full -z-20   blur-3xl'></div>
-            <div className=' flex mx-40 p-4 justify-between rounded-xl'>
+            <div className=' flex mx-40 p-4 -mt-9 justify-between rounded-xl'>
                 <div className=' cursor-default select-none'>
                     <div className=' mb-10 relative'>
 
@@ -30,7 +31,11 @@ const Hero = () => {
                         in faculty of computer science .. Front End Developer .
                     </h4>
 
-                   
+                    <Soical></Soical>
+
+
+
+                    
                 </div>
 
                 <img src="pal.svg" className='  -mt-20'   width={500} alt="" />

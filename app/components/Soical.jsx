@@ -6,7 +6,7 @@ import { BsWhatsapp } from "react-icons/bs";
 const Soical = () => {
     return (
         <div>
-            <div className=' text-slate-400 flex justify-center mx-auto text-5xl gap-5 m-6'>
+            <div className=' text-slate-400 flex  mx-auto text-4xl gap-5 py-6'>
 
                 
                 <h4><FaFacebook></FaFacebook></h4>

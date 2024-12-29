@@ -19,12 +19,15 @@ const Nav = () => {
 
 
     return (
-        <div>
+        <div className=' py-8'>
 
-            <div className='  m-8 flex justify-center gap-3 p-2 '>
+            <div className='  flex justify-center gap-3 p-2 '>
                 <div className=' place-items-center flex'>
-                    <h3 className='   place-items-center  gap-2 cursor-pointer  p-2 rounded-xl   transition font-anton text-3xl text-slate-400 flex gap-2a '>Kerlos Dev <FaCode />
-                    </h3>
+                    <Link href='/'>
+                        <h3 className='   place-items-center  gap-2 cursor-pointer  p-2 rounded-xl   transition font-anton text-3xl text-slate-400 flex gap-2a '>Kerlos Dev <FaCode />
+                        </h3>
+                    </Link>
+
 
                 </div>
                 <div className=' flex gap-4 w-fit  rounded-xl ' >

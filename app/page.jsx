@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Soical from "./components/Soical";
@@ -14,12 +12,11 @@ export default function Home() {
 
       
 
-      <Nav></Nav>
-      <Hero></Hero>
+     
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
-     <Soical></Soical>
+      
 
     </div>
   );

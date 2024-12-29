@@ -6,6 +6,8 @@ const ArabicUI2 = localFont({ src: './fonts/LANTX.otf' })
 const ArabicUI3 = localFont({ src: './fonts/Rubik.ttf' })
 import { Anton } from 'next/font/google';
 
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 
 const anton = Anton({
   subsets: ['latin'], // Include the subset you need
@@ -39,8 +41,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={` bg-slate-950  antialiased`}
+        className={` bg-slate-950   antialiased`}
       >
+         <Nav></Nav>
+         <Hero></Hero>
         {children}
       </body>
     </html>
