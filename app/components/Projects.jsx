@@ -24,7 +24,7 @@ const Projects = () => {
     }
     
     return (
-        <div className=' cursor-default my-9  mx-40 p-4'>
+        <div id='prog' className=' cursor-default my-9  mx-40 p-4'>
 
 
             <h5 className=' text-white text-6xl font-abril'>Projects</h5>

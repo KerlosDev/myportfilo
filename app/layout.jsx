@@ -43,8 +43,7 @@ export default function RootLayout({ children }) {
       <body
         className={` bg-slate-950   antialiased`}
       >
-         <Nav></Nav>
-         <Hero></Hero>
+        
         {children}
       </body>
     </html>

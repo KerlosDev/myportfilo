@@ -24,7 +24,7 @@ const Skills = () => {
 
 
     return (
-        <div className=' mt-20 cursor-default relative mx-40 '>
+        <div id='skills' className=' mt-20 cursor-default relative mx-40 '>
 
             <h3 className=' text-white m-4 font-abril text-6xl place-items-center flex gap-3 '>Skills <FaHeart className=' text-5xl' /></h3>
             <div className=' w-80 h-80 bg-slate-800 -z-30 blur-3xl left-52 rounded-full  absolute'></div>

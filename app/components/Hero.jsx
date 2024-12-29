@@ -12,7 +12,7 @@ const Hero = () => {
             <div className=' absolute  bg-slate-700/80 w-80 h-80 top-0   rounded-full -z-20   blur-3xl'></div>
             <div className=' absolute bg-slate-700/80 w-80 h-80 right-0   rounded-full -z-20   blur-3xl'></div>
             <div className=' flex mx-40 p-4 -mt-9 justify-between rounded-xl'>
-                <div className=' cursor-default select-none'>
+                <div id='header' className=' cursor-default select-none'>
                     <div className=' mb-10 relative'>
 
 
