@@ -33,9 +33,9 @@ const Hero = () => {
                     </div>
 
                     {/* Text Content */}
-                    <h4 className="font-anton mb-2 leading-snug text-slate-400 text-4xl sm:text-5xl lg:text-6xl">
+                    <h4 className="font-anton  mb-2 leading-snug text-slate-400 text-4xl sm:text-5xl lg:text-6xl">
                         Hi, I’m{' '}
-                        <span className="bg-gradient-to-tr from-slate-300 to-slate-100 text-white bg-clip-text text-transparent">
+                        <span className="  bg-gradient-to-tr from-slate-300 to-slate-100 text-white bg-clip-text text-transparent">
                             Kerlos Hany
                         </span>
                         ,
