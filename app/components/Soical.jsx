@@ -8,10 +8,19 @@ const Soical = () => {
         <div>
             <div className=' text-slate-400 flex  mx-auto text-4xl gap-5 py-6'>
 
-                
-                <h4><FaFacebook></FaFacebook></h4>
-                <h4><SiInstagram></SiInstagram></h4>
-                <h4><BsWhatsapp></BsWhatsapp></h4>
+
+                <a target='_blank' href="https://www.facebook.com/kerlosdev">
+                    <h4><FaFacebook></FaFacebook></h4>
+                </a>
+                <a target='_blank' href="https://www.instagram.com/kerlos_hany360">
+                    <h4><SiInstagram></SiInstagram></h4>
+                </a>
+
+
+
+                <a target='_blank' href="https://api.whatsapp.com/send/?phone=201277866394">
+                    <h4><BsWhatsapp></BsWhatsapp></h4>
+                </a>
             </div>
         </div>
     )
