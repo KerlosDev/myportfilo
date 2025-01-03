@@ -31,9 +31,8 @@ import { Abril_Fatface } from 'next/font/google';
 
 
 export const metadata = {
-  title: "My Portfolio ",
+  title: "Kerlos Hany",
   description: `Hi, I’m Kerlos Hany, a passionate web developer specializing in Next.js. With expertise in React and Tailwind CSS, I build fast, responsive, and visually stunning web applications.
-
 Explore my projects, dive into my coding journey, and see how I transform ideas into scalable solutions. Let’s connect and create something amazing together!`,
 };
 
