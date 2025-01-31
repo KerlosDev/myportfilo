@@ -10,6 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
+        'admin-imag': "url('/bgadmin.svg')",
 
         'noise': "url('/noise.png')",
       },
