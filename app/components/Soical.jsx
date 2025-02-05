@@ -18,7 +18,7 @@ const Soical = () => {
 
 
 
-                <a className=' hover:scale-125 transition hover:text-green-500 duration-300'  target='_blank' href="https://api.whatsapp.com/send/?phone=201277866394">
+                <a className=' hover:scale-125 transition hover:text-green-500 duration-300'  target='_blank' href="https://api.whatsapp.com/send/?phone=201080506463">
                     <h4><BsWhatsapp></BsWhatsapp></h4>
                 </a>
             </div>
