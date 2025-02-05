@@ -38,7 +38,7 @@ const Info = () => {
 
   return (
     <div className="p-6 bg-admin-imag bg-cover m-5 rounded-lg shadow-md">
-      <h1 className=" font-bold mb-4 text-white text-5xl ">User Enrollments</h1>
+      <h1 className=" font-bold mb-4 text- text-5xl ">User Enrollments</h1>
       {userEnrolls.length > 0 ? (
         <ul className="space-y-4">
           {userEnrolls.map((enroll, index) => (
