@@ -9,7 +9,7 @@ const token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wcm9kd
 const emails = async () => {
   const query8 = gql`
   query MyQuery {
-  userEnrolls(first: 1000) {
+  userEnrolls(first: 800) {
     isHePaid
     phonenumber
     userEmail
