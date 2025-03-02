@@ -13,6 +13,7 @@ const emails = async () => {
     isHePaid
     phonenumber
     userEmail
+    updatedAt
   }
 }
   
