@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
-const ArabicUI = localFont({ src: './fonts/DG-Gaza.ttf' })
+const c = localFont({ src: './fonts/DG-Gaza.ttf' })
 const ArabicUI2 = localFont({ src: './fonts/LANTX.otf' })
 const ArabicUI3 = localFont({ src: './fonts/Rubik.ttf' })
 import { Anton } from 'next/font/google';

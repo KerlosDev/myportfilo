@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { FaLink } from 'react-icons/fa';
+import { FaLink, FaHeart } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 import Globapi from '../api/Globapi';
 
@@ -21,35 +21,71 @@ const Projects = () => {
     };
 
     return (
-        <div id="prog" className="cursor-default my-9 mx-4 lg:mx-40 p-4">
-            <h5 className="text-white text-4xl lg:text-6xl font-abril mb-8">Projects</h5>
+        <div id="prog" className="min-h-screen py-20 relative">
+            {/* Animated background */}
+            <div className="absolute inset-0 overflow-hidden">
+                <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur-3xl -top-52 -right-52 animate-pulse"></div>
+                <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full blur-3xl -bottom-52 -left-52 animate-pulse"></div>
+            </div>
 
-            <div className="grid gap-10 sm:gap-16 lg:gap-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {projectdata.map((item, index) => (
-                    <div
-                        key={index}
-                        className="bg-white drop-shadow-[0_50px_50px_rgba(100,116,139,0.3)] mt-6 sm:mt-10 rounded-2xl"
-                    >
-                        <Image
-                            className="hover:scale-110 transition transform scale-105 border-white drop-shadow-2xl rounded-xl"
-                            src={item.imageforcourse[0].url}
-                            width={400}
-                            height={400}
-                            alt={item.name}
-                            priority
-                        />
+            <div className="max-w-7xl mx-auto px-4 relative z-10">
+                {/* Header */}
+                <div className="text-center mb-16">
+                    <h2 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-600 inline-flex items-center gap-4">
+                        Projects <FaHeart className="text-green-500 animate-pulse text-4xl md:text-5xl" />
+                    </h2>
+                </div>
 
-                        <Link href={`/project/${item.slugforproject}`}>
-                            <h4 className="hover:scale-110 hover:text-blue-600 transition font-arabicUI3 text-center mt-3 pt-4 text-xl sm:text-2xl lg:text-3xl text-slate-900">
-                                {item.name}
-                            </h4>
-                        </Link>
+                <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                    {projectdata.map((item, index) => (
+                        <div
+                            key={index}
+                            className="group relative overflow-hidden rounded-2xl backdrop-blur-md bg-gradient-to-br from-green-500/5 to-emerald-500/10 border border-green-500/20 transition-all duration-300 hover:scale-105"
+                        >
+                            <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 to-emerald-500/0 group-hover:from-green-500/20 group-hover:to-emerald-500/20 transition-all duration-300" />
 
-                        <p className="font-arabicUI3 border-t-2 p-4 border-dashed border-black text-center m-3 text-wrap w-full text-sm sm:text-base lg:text-lg text-slate-900/80">
-                            {item.description}
-                        </p>
-                    </div>
-                ))}
+                            {/* Image */}
+                            <div className="relative aspect-video overflow-hidden">
+                                <Image
+                                    className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+                                    src={item.imageforcourse[0].url}
+                                    width={400}
+                                    height={400}
+                                    alt={item.name}
+                                    priority
+                                />
+                            </div>
+
+                            {/* Content */}
+                            <div className="p-6">
+                                <Link href={`/project/${item.slugforproject}`}>
+                                    <h3 className="text-xl font-bold text-white mb-3 transition-colors group-hover:text-green-400">
+                                        {item.name}
+                                    </h3>
+                                </Link>
+
+                                <p dir='rtl' className="text-gray-300 text-sm line-clamp-3 mb-4">
+                                    {item.description}
+                                </p>
+
+                                {/* Action Button */}
+                                <div className="mt-auto">
+                                    <Link
+                                        href={`/project/${item.slugforproject}`}
+                                        className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 text-green-400 hover:bg-white/10 transition-all duration-300 group/btn"
+                                    >
+                                        <span>View Project</span>
+                                        <FaArrowRight className="transition-transform duration-300 group-hover/btn:translate-x-1" />
+                                    </Link>
+                                </div>
+                             
+                            </div>
+
+                            {/* Top border gradient */}
+                            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500 opacity-50" />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

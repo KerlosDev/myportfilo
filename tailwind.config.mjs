@@ -23,7 +23,7 @@ export default {
         Gaza: ['DGGaza', 'sans-serif'],
         rakkas: ['Rakkas', 'sans-serif'],
 
-        
+
       },
       colors: {
         background: "var(--background)",
@@ -31,5 +31,14 @@ export default {
       },
     },
   },
-  plugins: [ ],
+  theme: {
+    extend: {
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'spin-slow-reverse': 'spin 10s linear infinite reverse',
+      },
+      // ...existing theme extensions...
+    },
+  },
+  plugins: [],
 };

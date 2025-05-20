@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.rotate-y-6 {
+    transform: rotateY(6deg);
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 
 
 

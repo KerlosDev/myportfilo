@@ -6,20 +6,32 @@ import { BsWhatsapp } from "react-icons/bs";
 const Soical = () => {
     return (
         <div>
-            <div className=' text-slate-400 flex  mx-auto text-4xl gap-5 py-6'>
-
-
-                <a className=' hover:scale-125 transition hover:text-blue-500 duration-300' target='_blank' href="https://www.facebook.com/kerlosdev">
-                    <h4><FaFacebook></FaFacebook></h4>
+            <div className="flex gap-4">
+                <a
+                    className="group p-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 transition-all duration-300 hover:bg-white/10 hover:scale-105"
+                    target="_blank"
+                    href="https://www.facebook.com/kerlosdev"
+                    rel="noopener noreferrer"
+                >
+                    <FaFacebook className="text-2xl text-green-400 transition-transform group-hover:scale-110" />
                 </a>
-                <a className=' hover:scale-125 transition hover:text-red-500 duration-300'  target='_blank' href="https://www.instagram.com/kerlos_hany360">
-                    <h4><SiInstagram></SiInstagram></h4>
+
+                <a
+                    className="group p-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 transition-all duration-300 hover:bg-white/10 hover:scale-105"
+                    target="_blank"
+                    href="https://www.instagram.com/kerlos_hany360"
+                    rel="noopener noreferrer"
+                >
+                    <SiInstagram className="text-2xl text-green-400 transition-transform group-hover:scale-110" />
                 </a>
 
-
-
-                <a className=' hover:scale-125 transition hover:text-green-500 duration-300'  target='_blank' href="https://api.whatsapp.com/send/?phone=201080506463">
-                    <h4><BsWhatsapp></BsWhatsapp></h4>
+                <a
+                    className="group p-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 transition-all duration-300 hover:bg-white/10 hover:scale-105"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send/?phone=201080506463"
+                    rel="noopener noreferrer"
+                >
+                    <BsWhatsapp className="text-2xl text-green-400 transition-transform group-hover:scale-110" />
                 </a>
             </div>
         </div>
