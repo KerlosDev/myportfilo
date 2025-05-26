@@ -19,7 +19,7 @@ const Soical = () => {
                 <a
                     className="group p-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 transition-all duration-300 hover:bg-white/10 hover:scale-105"
                     target="_blank"
-                    href="https://www.instagram.com/kerlos_hany360"
+                    href="https://www.instagram.com/kerlos_hany"
                     rel="noopener noreferrer"
                 >
                     <SiInstagram className="text-2xl text-green-400 transition-transform group-hover:scale-110" />
