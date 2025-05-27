@@ -61,7 +61,7 @@ const ProjectCont = ({ id }) => {
     }
 
     return (
-        <div className="relative min-h-screen overflow-hidden flex items-center justify-center px-4 py-20">
+        <div  className="relative font-arabicUI3 min-h-screen overflow-hidden flex items-center justify-center px-4 py-20">
             {/* Animated Background Elements */}
             <div className="absolute inset-0">
                 <div className="absolute w-[800px] h-[800px] bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-full blur-3xl -top-1/4 -left-1/4 animate-pulse"></div>
@@ -140,7 +140,7 @@ const ProjectCont = ({ id }) => {
                     </div>
 
                     {/* Right Column - Project Details */}
-                    <div className="space-y-6 order-1 lg:order-2">
+                    <div dir='rtl' className="space-y-6 order-1 lg:order-2">
                         <div className="relative backdrop-blur-xl bg-gradient-to-br from-green-500/10 to-emerald-500/10 p-8 rounded-2xl border border-green-500/20">
                             <h1 className="text-4xl font-bold mb-4 flex items-center gap-3">
                                 <span className="bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">
@@ -149,7 +149,7 @@ const ProjectCont = ({ id }) => {
                                 <IoRocketSharp className="text-green-400 animate-pulse" />
                             </h1>
 
-                            <div className="text-gray-300 text-lg leading-relaxed mb-6 text-right font-['DG-Gaza']">
+                            <div className="text-gray-300 text-lg leading-relaxed mb-6 text-right font-arabicUI3">
                                 {project.description}
                             </div>
 

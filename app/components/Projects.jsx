@@ -39,6 +39,7 @@ const Projects = () => {
                 <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     {projectdata.map((item, index) => (
                         <div
+                            dir='rtl'
                             key={index}
                             className="group relative overflow-hidden rounded-2xl backdrop-blur-md bg-gradient-to-br from-green-500/5 to-emerald-500/10 border border-green-500/20 transition-all duration-300 hover:scale-105"
                         >
@@ -54,31 +55,27 @@ const Projects = () => {
                                     alt={item.name}
                                     priority
                                 />
-                            </div>
-
-                            {/* Content */}
+                            </div>                            {/* Content */}
                             <div className="p-6">
                                 <Link href={`/project/${item.slugforproject}`}>
-                                    <h3 className="text-xl font-bold text-white mb-3 transition-colors group-hover:text-green-400">
+                                    <h3 className="text-xl font-arabicUI3 text-white mb-3 transition-colors group-hover:text-green-400">
                                         {item.name}
                                     </h3>
                                 </Link>
 
-                                <p dir='rtl' className="text-gray-300 text-sm line-clamp-3 mb-4">
+                                <p dir='rtl' className="text-gray-300 font-arabicUI2  text-sm line-clamp-3 mb-4">
                                     {item.description}
-                                </p>
-
-                                {/* Action Button */}
-                                <div className="mt-auto">
+                                </p>                                {/* Action Button */}
+                                <div className="mt-auto flex justify-end">
                                     <Link
                                         href={`/project/${item.slugforproject}`}
-                                        className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 text-green-400 hover:bg-white/10 transition-all duration-300 group/btn"
+                                        className="inline-flex font-arabicUI3 items-center gap-3 px-6 py-3 rounded-xl bg-white/5 backdrop-blur-md border border-green-500/20 text-green-400 hover:bg-white/10 transition-all duration-300 group/btn"
                                     >
-                                        <span>View Project</span>
                                         <FaArrowRight className="transition-transform duration-300 group-hover/btn:translate-x-1" />
+                                        <span>View Project</span>
                                     </Link>
                                 </div>
-                             
+
                             </div>
 
                             {/* Top border gradient */}

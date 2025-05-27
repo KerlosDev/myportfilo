@@ -27,7 +27,7 @@ const Nav = () => {
     };
 
     return (
-        <div className='fixed top-0 left-0 right-0 z-50'>
+        <div className='fixed font-extrabold top-0 left-0 right-0 z-50'>
             {/* Animated Background Elements */}
             <div className='absolute inset-0'>
                 <div className='absolute w-[400px] h-[200px] bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-full blur-3xl -top-24 -left-24 animate-pulse'></div>
@@ -42,7 +42,7 @@ const Nav = () => {
                     <Link href='/' onClick={() => window.scrollTo(0, 0)}>
                         <div className='group relative'>
                             <div className='absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-opacity'></div>
-                            <h3 className='relative cursor-pointer p-2 rounded-xl transition font-anton text-2xl sm:text-3xl text-gray-300 flex items-center gap-2 group-hover:text-green-400'>
+                            <h3 className='relative cursor-pointer p-2 rounded-xl transition font-arabicUI3 text-2xl sm:text-3xl text-gray-300 flex items-center gap-2 group-hover:text-green-400'>
                                 Kerlos Dev
                                 <FaCode className="text-green-500 group-hover:rotate-12 transition-all duration-300 group-hover:scale-110" />
                             </h3>

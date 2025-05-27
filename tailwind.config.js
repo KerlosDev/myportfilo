@@ -9,6 +9,11 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'spin-slow-reverse': 'spin 10s linear infinite reverse',
+   
+      },
       backgroundImage: {
         'admin-imag': "url('/bgadmin.svg')",
 
@@ -31,14 +36,6 @@ export default {
       },
     },
   },
-  theme: {
-    extend: {
-      animation: {
-        'spin-slow': 'spin 8s linear infinite',
-        'spin-slow-reverse': 'spin 10s linear infinite reverse',
-      },
-      // ...existing theme extensions...
-    },
-  },
+  
   plugins: [],
 };

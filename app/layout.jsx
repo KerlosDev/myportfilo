@@ -1,26 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
-const c = localFont({ src: './fonts/DG-Gaza.ttf' })
+const ArabicUI = localFont({ src: './fonts/DG-Gaza.ttf' })
 const ArabicUI2 = localFont({ src: './fonts/LANTX.otf' })
 const ArabicUI3 = localFont({ src: './fonts/Rubik.ttf' })
 import { Anton } from 'next/font/google';
+ 
 
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-
+// Configure Anton font
 const anton = Anton({
   subsets: ['latin'], // Include the subset you need
   weight: '400',      // Adjust weight if needed (Anton only has 400)
 });
 
-
 import { Rakkas } from 'next/font/google';
-
-const abrilFatface = Abril_Fatface({
-  subsets: ['latin'],
-  weight: '400', // Adjust based on the font options
-});
 
 // Configure the font
 const rakkas = Rakkas({
@@ -28,7 +20,11 @@ const rakkas = Rakkas({
   weight: '400', // Specify the weight, if applicable
 });
 import { Abril_Fatface } from 'next/font/google';
-
+ 
+const abrilFatface = Abril_Fatface({
+  subsets: ['latin'],
+  weight: '400', // Adjust based on the font options
+});
 
 export const metadata = {
   title: "Kerlos Hany",

@@ -30,10 +30,8 @@ const Contact = () => {
         } finally {
             setLoading(false);
         }
-    };
-
-    return (
-        <div className="relative min-h-screen overflow-hidden flex items-center justify-center px-4 py-20">
+    }; return (
+        <div id="contact" className="relative min-h-screen overflow-hidden flex items-center justify-center px-4 py-20">
             {/* Animated Background Elements */}
             <div className="absolute inset-0">
                 <div className="absolute w-[800px] h-[800px] bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-full blur-3xl -top-1/4 -left-1/4 animate-pulse"></div>
