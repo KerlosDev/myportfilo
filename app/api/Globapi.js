@@ -74,13 +74,13 @@ const getMessages = async () => {
 }
 const getProject = async () => {
   const query3 = gql`
-  query MyQuery {
+ query MyQuery {
   projects {
     name
     slugforproject
     id
     description
-    imageforcourse {
+    imageforcourse(first: 100) {
       id
       url
     }
@@ -99,7 +99,7 @@ const getspecifec = async (slug) => {
     id
     description
     link
-    imageforcourse {
+    imageforcourse(first: 100) {
       id
       url
     }

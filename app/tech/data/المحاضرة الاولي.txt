@@ -1,0 +1,265 @@
+
+
+The key concept in technical communication is that audience and purpose determine everything about how you communicate on the job.
+True
+
+Technical writing is a form of communication that professionals use to convey information about specialized topics.
+True
+
+
+Technical writing is exclusively designed for users in academic fields, not technical professions.
+False
+
+Technical writing is designed to inform, instruct, and persuade the audience.
+True
+
+Memos, e-mail, letters, and reports are all examples of technical writing.
+True
+
+Technical writing is primarily read for entertainment or engaging in a discussion.
+False
+
+Technical communication involves delivering information to readers in a manner adapted to their needs, level of understanding, and background.
+True
+
+A key skill for any technical communicator is the ability to "translate" technical information for non-specialists.
+True
+
+Technical writers only need to be aware of the obvious rules governing behaviors of a culture to communicate effectively.
+False
+
+According to the Cultural Iceberg model, Institutional Culture (obvious behavior) is the visible tip, while People Culture (norms, beliefs, values) is unseen.
+True
+
+Technical writers should use emotional words and phrases that appeal to basic emotion instead of justifiable reasoning.
+False
+
+It is acceptable for a technical writer to rearrange information to imply they are the source of someone else's idea.
+False
+
+Most technical writing is composed for the ordinary user—the consumer—rather than solely for experts within a field.
+True
+
+Technical writing should avoid emotionally charged language, redundant adjectives, or words open to interpretation.
+True
+
+When writing for multicultural readers, it is recommended to keep sentences short, aiming for an average length of no more than 20 words.
+True
+
+Idioms and slang are generally encouraged when communicating with multicultural readers because they add a conversational tone.
+False
+
+Using the active voice is generally easier for nonnative speakers of English to understand than the passive voice.
+True
+
+Technical documents must be reader-centered, meaning the information is explained and presented in an easy-to-navigate and understand style.
+True
+
+Concise writing means using fewer words than necessary to get a point across, even if it sacrifices some clarity.
+False
+
+A primary reader of a report typically reads only the sections that are relevant to their job or department.
+False
+
+
+
+According to Dr. Sara Dakrory, what is the key concept in technical communication that determines everything about how you communicate on the job?
+a) The length of the document
+b) The writer's personal style
+c) Audience and purpose
+d) The deadline for submission
+
+True answer: c) Audience and purpose
+
+What is technical writing primarily defined as in the lecture?
+a) A form of creative storytelling
+b) A form of communication that professionals use to convey information about specialized topics
+c) A method for philosophical debate
+d) Communication designed solely for entertainment
+
+True answer: b) A form of communication that professionals use to convey information about specialized topics
+
+Which of the following professional fields is explicitly mentioned as using technical writing for its users?
+a) Art history
+b) Culinary arts
+c) Medical professions
+d) Literary criticism
+
+True answer: c) Medical professions
+
+Technical writing is designed to achieve which three main purposes?
+a) Engage, debate, and theorize
+b) Inform, instruct, and persuade
+c) Entertain, confuse, and surprise
+d) Speculate, hypothesize, and generalize
+
+True answer: b) Inform, instruct, and persuade
+
+Technical writing is communication written for and about business and industry, focusing on what?
+a) Personal anecdotes and opinions
+b) Historical events and biographies
+c) Fictional narratives and dramas
+d) Products and services
+
+True answer: d) Products and services
+
+Which of the following is listed as a common type of technical document?
+a) Novels
+b) Poetry anthologies
+c) Autobiographies
+d) Instruction manuals
+
+True answer: d) Instruction manuals
+
+What is highlighted as a cornerstone of the technical communication course regarding audience?
+a) To avoid technical subjects entirely
+b) To only write for expert audiences
+c) To ensure all documents are very short
+d) To write about highly technical subjects in a way that a beginner—a nonspecialist—could understand
+
+True answer: d) To write about highly technical subjects in a way that a beginner—a nonspecialist—could understand
+
+The ability to "translate" technical information to non-specialists is described as what for any technical communicator?
+a) A minor advantage
+b) An optional skill
+c) A key skill
+d) An unnecessary burden
+
+True answer: c) A key skill
+
+According to Edward T. Hall and Mildred Reed Hall, as cited in the lecture, how does each culture operate?
+a) By adopting universal guidelines
+b) Randomly without structure
+c) By adapting to dominant global trends
+d) According to its own rules
+
+True answer: d) According to its own rules
+
+In the Cultural Iceberg illustration, what does the 'tip of the iceberg' represent?
+a) The unseen norms, beliefs, and values of a culture
+b) Hidden cultural barriers to communication
+c) Indicators of Institutional Culture (the obvious behavior of a culture)
+d) Subconscious cultural biases
+
+True answer: c) Indicators of Institutional Culture (the obvious behavior of a culture)
+
+Regarding ethics in technical writing, what advice is given concerning the use of words?
+a) Use emotionally charged language to appeal to basic emotion.
+b) Use words that demonstrate valid appeals to reason, avoiding emotional words.
+c) Employ ambiguous language to encourage diverse interpretations.
+d) Focus on entertaining words to keep the reader engaged.
+
+True answer: b) Use words that demonstrate valid appeals to reason, avoiding emotional words.
+
+To support ideas and strategies ethically, technical writers must use what?
+a) General assumptions
+b) Unverified claims
+c) Non-experts to sway readers' support
+d) Valid references
+
+True answer: d) Valid references
+
+In terms of reporting data ethically, what must technical writers do?
+a) Skew data using charts and tables to support their argument.
+b) Only report data that is favorable to their position.
+c) Use accurate numbers to report data, avoiding charts and tables that skew data.
+d) Exaggerate data for greater impact.
+
+True answer: c) Use accurate numbers to report data, avoiding charts and tables that skew data.
+
+What is stated as explicitly unacceptable regarding crediting sources in technical writing?
+a) Referencing accurately in the text.
+b) Citing all sources on a reference page.
+c) Rearranging information in order to attempt to indicate that the writer is the source of someone else’s idea.
+d) Citing primary sources when available.
+
+True answer: c) Rearranging information in order to attempt to indicate that the writer is the source of someone else’s idea.
+
+The lecture states that the reader of technical documents primarily reads to gain what?
+a) Entertainment
+b) Engage in a discussion
+c) Information
+d) Emotional connection
+
+True answer: c) Information
+
+What type of language does technical writing explicitly avoid?
+a) Precise language
+b) Objective language
+c) Emotionally charged language
+d) Factual language
+
+True answer: c) Emotionally charged language
+
+When writing for readers from other cultures, what is suggested regarding vocabulary?
+a) Use extensive vocabulary to showcase linguistic prowess.
+b) Incorporate complex synonyms for variety.
+c) Limit your vocabulary, ensuring every word has only one meaning.
+d) Use highly specialized terms to maintain professionalism.
+
+True answer: c) Limit your vocabulary, ensuring every word has only one meaning.
+
+What is a recommended guideline for sentence length when communicating with multicultural readers?
+a) Sentences should be as long as possible to include all details.
+b) Sentences should average no more than 5 words.
+c) Try for an average length of no more than 20 words.
+d) Sentence length is irrelevant as long as the content is clear.
+
+True answer: c) Try for an average length of no more than 20 words.
+
+What advice is given regarding the use of jargon when writing for multicultural readers?
+a) Always use jargon to appear authoritative.
+b) Jargon helps nonnative speakers understand technical concepts.
+c) Avoid jargon unless you know your readers are familiar with it.
+d) Define every piece of jargon in a footnote.
+
+True answer: c) Avoid jargon unless you know your readers are familiar with it.
+
+Why should idioms and slang be avoided when writing for multicultural readers?
+a) They are universally understood across all cultures.
+b) They make the text more engaging and informal.
+c) They are culture specific and can cause confusion.
+d) They are considered too formal for technical writing.
+
+True answer: c) They are culture specific and can cause confusion.
+
+Which voice is recommended for nonnative speakers of English because it is easier to understand?
+a) Passive voice
+b) Subjunctive voice
+c) Imperative voice
+d) Active voice
+
+True answer: d) Active voice
+
+Technical documents must be described as what, meaning the information is explained and presented in a style that is easy to navigate and understand?
+a) Writer-centered
+b) Editor-focused
+c) Reader-centered
+d) Topic-driven
+
+True answer: c) Reader-centered
+
+To write concisely in technical documentation means to:
+a) Always use fewer words, even if clarity is sacrificed.
+b) Focus on summarising extensively to shorten the document.
+c) Use all the words you need but only the words you need.
+d) Employ long, elaborate sentences to demonstrate expertise.
+
+True answer: c) Use all the words you need but only the words you need.
+
+Which of the following is listed as an element of efficient page design to help the reader navigate through the material?
+a) Using complex, decorative fonts
+b) Minimizing white space on the page
+c) Numbered or bulleted lists
+d) Avoiding headings to maintain flow
+
+True answer: c) Numbered or bulleted lists
+
+What is the primary difference between a primary reader and a secondary reader of a technical document?
+a) Primary readers are typically junior staff, while secondary readers are senior.
+b) Secondary readers are the ones who ordered the report to be written.
+c) A primary reader is the person who usually reads the entire report, while secondary readers read only the sections that relate to them.
+d) Primary readers are always experts in the field, while secondary readers are not.
+
+True answer: c) A primary reader is the person who usually reads the entire report, while secondary readers read only the sections that relate to them.
+
