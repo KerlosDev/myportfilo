@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { SiNextdotjs, SiGraphql, SiExpress, SiNodedotjs } from 'react-icons/si';
+import { SiNextdotjs, SiGraphql, SiExpress, SiNodedotjs, SiDocker, SiPostgresql, SiPrisma } from 'react-icons/si';
 import { RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
 import { FaJsSquare, FaHtml5, FaCss3, FaHeart } from 'react-icons/fa';
 
@@ -16,6 +16,9 @@ const Skills = () => {
         { id: 6, name: "HTML5", icon: <FaHtml5 />, paragrap: `HTML5 is the latest version of HTML (HyperText Markup Language), the standard language for creating web pages. It introduces new elements, attributes, and APIs to make web development easier, more powerful, and more interactive.` },
         { id: 7, name: "CSS", icon: <FaCss3 />, paragrap: `CSS (Cascading Style Sheets) is a language used to style and format the layout of web pages. It controls the visual appearance of HTML elements, including colors, fonts, spacing, and positioning.` },
         { id: 8, name: "Graph QL", icon: <SiGraphql />, paragrap: `GraphQL is a query language for APIs and a runtime for executing those queries against your data. It was developed by Facebook to improve the way data is fetched and interacted with in web applications. GraphQL provides a more flexible and efficient approach to data retrieval than traditional REST APIs.` },
+        { id: 9, name: "Docker", icon: <SiDocker />, paragrap: `Docker is a platform for developing, shipping, and running applications inside lightweight containers. It enables consistent environments and simplifies deployment across different systems.` },
+        { id: 10, name: "PostgreSQL", icon: <SiPostgresql />, paragrap: `PostgreSQL is a powerful, open-source object-relational database system. It is known for its reliability, feature robustness, and performance.` },
+        { id: 11, name: "Prisma", icon: <SiPrisma />, paragrap: `Prisma is a next-generation ORM for Node.js and TypeScript. It helps developers build faster and more reliable database applications with an auto-generated query builder.` },
     ];
 
     return (
